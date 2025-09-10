@@ -28,14 +28,14 @@ When you sign up for a watsonx trial, the watsonx.ai Studio and watsonx.ai Runti
 
 1. Click **Create account or log in**.
 
-1. If you already have an IBMid, then click Log in, and sign in with your existing email address and password.
+1. If you already have an IBMid, then click **Log in**, and sign in with your existing email address and password.
 
 1. If you don’t have an iBMid, type your email address, and complete the registration process to create an account.
 
 <a name="task02"></a>
 # Task 2: Obtain your credentials for programmatic access
 
-To call the watsonx service, you need credentials. Follow these steps to create a API key, and obtain your watsonx.ai URL and project ID:
+To call the watsonx service, you need credentials. Follow these steps to create an API key, and obtain your watsonx.ai URL and project ID:
 
 1. Click **IBM watsonx** to return to the home screen, and scroll to the *Developer access* section.
 
@@ -62,7 +62,7 @@ To call the watsonx service, you need credentials. Follow these steps to create 
 
 When you sign up for a watsonx account, a sandbox project is created for you. Follow these steps to associate your wasonx.ai Runtime service with your project:
 
-1. From the watsonx home screen, scroll to the *Projects* section.
+1. Click **IBM watsonx** to return to the home screen, and scroll to the *Projects* section.
 
 1. Select your sandbox project.
 
@@ -72,16 +72,24 @@ When you sign up for a watsonx account, a sandbox project is created for you. Fo
 
 1. Click **Associate service**.
 
-1. Select your watsonx.ai Runtime service.
+   1. Select your watsonx.ai Runtime service.
 
-1. Click **Associate*.
+   1. Click **Associate**.
 
 <a name="task04"></a>
 # Task 4: Create a notebook in the project
 
 You can create a notebook based on a URL to import this notebook into a project. Follow these steps to create the notebook:
 
-1. In your sandbox project, click the **Assets** tab.
+1. Obtain the raw URL for the notebook:
+
+   1. Select the notebook from the [Granite Snack Cookbook](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/README.md).
+
+   1. Click **Raw** to see the notebook code.
+
+   1. Copy the URL.
+
+1. In your watsonx sandbox project, click the **Assets** tab.
 
 1. Click **New asset > Work with data and models in Python or R notebooks**.
 
