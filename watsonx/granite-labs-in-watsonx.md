@@ -12,7 +12,7 @@ Complete the following tasks to run a recipe in IBM watsonx.
 - [Task 4: Create a notebook in the project](#task04)
 
 # Task 1: Sign up for an IBM watsonx trial account
-<a name="task01">
+<a name="task01"></a>
 
 When you sign up for a watsonx trial, the watsonx.ai Studio and watsonx.ai Runtime services are provisoned for you. Follow these steps to sign up for a trial account:
 
@@ -33,7 +33,7 @@ When you sign up for a watsonx trial, the watsonx.ai Studio and watsonx.ai Runti
 1. If you don’t have an iBMid, type your email address, and complete the registration process to create an account.
 
 # Task 2: Obtain your credentials for programmatic access
-<a name="task02">
+<a name="task02"></a>
 
 To call the watsonx service, you need credentials. Follow these steps to create a API key, and obtain your watsonx.ai URL and project ID:
 
@@ -58,7 +58,7 @@ To call the watsonx service, you need credentials. Follow these steps to create 
 1. Close the API key window.
 
 # Task 3: Associate the watsonx.ai Runtime service with your project
-<a name="task03">
+<a name="task03"></a>
 
 When you sign up for a watsonx account, a sandbox project is created for you. Follow these steps to associate your wasonx.ai Runtime service with your project:
 
@@ -77,7 +77,7 @@ When you sign up for a watsonx account, a sandbox project is created for you. Fo
 1. Click **Associate*.
 
 # Task 4: Create a notebook in the project
-<a name="task04">
+<a name="task04"></a>
 
 You can create a notebook based on a URL to import this notebook into a project. Follow these steps to create the notebook:
 
