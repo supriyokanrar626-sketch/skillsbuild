@@ -2,6 +2,8 @@
 
 You can run any of the recipes in the [Granite Snack Cookbook](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/README.md) in IBM watsonx.
 
+If the lab requires a Replicate token, then sign up for a [GitHub account](https://github.com/) if you don't already have one. Then claim your [Replicate credit](https://replicate.com/invites/a8717bfe-2f3d-4a52-88ed-1356231cdf03), by logging in with your GitHub credentials.
+
 # Contents
 
 Complete the following tasks to run a recipe in IBM watsonx.
