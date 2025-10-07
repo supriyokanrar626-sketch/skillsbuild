@@ -28,7 +28,7 @@ In this lab, you will complete the following tasks:
 - Compare the strengths and weaknesses of different models.
 - Test different configuration parameters to how they influence a model in generating output.
 - Differentiate zero-shot prompting, one-shot prompting, and few-shot prompting.
-- Generate list and JSON files with foundation models.
+- Generate lists with foundation models.
 - Save prompts and prompt sessions.
 - Restore a saved prompt to an earlier state via prompt history.
 - Save prompts to a Jupyter notebook and work with the Jupyter notebook.
@@ -40,8 +40,7 @@ In this lab, you will complete the following tasks:
 # Contents
 
 - [Part 1: Use the Prompt Lab](#task01)
-- [Part 2: Explore prompt results in another data format (JSON)](#task02)
-- [Part 3: Work with prompts in a Jupyter notebook](#task03)
+- [Part 2: Work with prompts in a Jupyter notebook](#task02)
 
 # Summary
 
@@ -224,100 +223,11 @@ You can type your prompt in a structured format. The structured format is helpfu
 
 <a name="task02"></a>
 
-# Part 2: Explore prompt results in another data format (JSON)
-
-In this task, you will use the Prompt Lab to generate a simple JSON file, experimenting with different models to see how they handle structured output. While some models excel in generating natural language text, others are better suited for producing valid JSON outputs. Additionally, you will explore the use of Stop sequences to control the model's output and prevent unwanted text generation.
-
-**Note:** If you do not see the models used in this task in the Prompt Lab, refer to the [Foundation model lifecycle](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-model-lifecycle.html?context=wx) topic to find the recommended alternative model.
-
-[Back to the top](#top)
-
-## Task 2a: Generate a response using a flan model
-
-Follow these steps to prompt a flan foundation model:
-
-1. In the Prompt Lab, click **+** to start a new prompt in Structured mode.
-2. Verify that that the **flan-ul2-20b** model is selected.
-3. In the _Model parameters_, set the following parameters:
-    - **Decoding** to **Sampling**
-    - **Max tokens** to `200`
-    - **Min tokens** to `0`
-    - **Temperature** to `0.7`
-    - **top K** to `50`
-    - **Top P** to `0.5`
-    - **Repetition penalty** to `1.2`
-4. In the _Try_ section, copy and paste the following text into the Input field:
-
-    ```
-    Create a JSON file output with the following information
-       
-    name: Joe age: 25
-
-    Phone: 416-1234-567
-
-    Phone: 547-4034-240
-
-    Address: City: Markham, Street: Warden Avenue, Postal Code: L6G 1C7
-    ```
-
-1. Click **Generate**. Notice the output states “\[The input was rejected for containing personal information\]”
-2. Disable **AI guardrails on**. This is necessary to pass personal information in the input text.
-3. Click **Generate**. This result shows the strengths of the *flan-ul2-20b* model in that it responded with a natural language output. However, you are looking for JSON formatted output.<br/>
-   <img src="images/output01.jpg" width="50%" alt="Output image" title="Output image">
-5. Save your work as a prompt session with the name:
-   ```
-   flan model prompt
-   ```
-
-## Task 2b: Generate a response in JSON format
-
-Follow these steps generate a simple JSON file, and add a stop sequence:
-
-1. Switch to the **granite-3-8b-instruct** model, and click **Generate**. The results is valid JSON. The *granite-3-8b-instruct* model demonstrates that it understands how to translate input text to JSON.<br/>
-   <img src="images/output03.jpg" width="50%" alt="Output image" title="Output image">
-1. Save your work as a prompt session with the name:
-   ```
-   granite model prompt
-   ```
-
-[Back to the top](#top)
-
-## Task 2c: Specify stopping criteria
-
-Follow these steps select a different model to generate a simple JSON file, and add a stop sequence:
-
-1. Select the **mistral-small-3-1-24b-instruct-2503** model to test a different foundation model.
-2. Click **Generate**. You get the following output.<br/>
-   <img src="images/output04.jpg" width="50%" alt="Output image" title="Output image">  
-   The *mistral-small-3-1-24b-instruct-2503* model also generates a valid JSON output, except that it has additional characters at the bottom. While this is not a big issue, you can use the *Stop sequences* parameter to eliminate the extra characters. In this case, you want to stop the generation once the model encounters the following text sequence (2 curly brackets that conclude the JSON section). `} }`
-10. Click the **Model parameters** icon ![Model parameters icon](images/parameters.svg "Model parameters icon").
-11. Type the following keystrokes in the *Stop sequences* field: `} press the return or enter key }`<br/>![Stop sequence characters](images/stop-sequence.png "Stop sequence characters")<br/>
-    If your output looks different, then adjust the stopping sequence to match your output. For example, if the output shows a blank line between the two curly brackets, then press the return or enter key twice.<br/>![Stop sequence characters](images/stop-sequence-double.png "Stop sequence characters")
-1. Click the **+** icon to add the sequence. The following image shows the **Stop sequences** field:<br/>
-   <img src="images/output06.jpg" width="25%" alt="Output image" title="Output image">
-1. Click **Generate**. The following image shows the output which no longer includes the extra characters as the model recognizes the stop sequence and ceases to generate anything after that sequence.<br/>
-   <img src="images/output07.jpg" width="50%" alt="Output image" title="Output image">
-1. Save your work as a prompt session with the name:
-   ```
-   Stop criteria prompt
-   ```
-
-[Back to the top](#top)
-
-### Explore further
-
-- Remove the stop sequence by clicking **X**. What if you specify just one curly right bracket instead? Does this criteria behave as expected?
-- Remove the previous stop sequence. What if you specify 2 curly right brackets (with no carriage return in between), using this stop sequence: `}}`. Does this criteria behave as expected?
-
-[Back to the top](#top)
-
-<a name="task03"></a>
-
-# Part 3: Work with prompts in a Jupyter notebook
+# Part 2: Work with prompts in a Jupyter notebook
 
 You have been working with prompt engineering via the console. However, data and AI engineers work programmatically. In this task, you will create a Jupyter notebook for a prompt, and work with prompts in a Jupyter notebook in watsonx.ai.
 
-## Task 3a: Create an API key
+## Task 2a: Create an API key
 
 To run a Jupyter notebook you will need your API key. If do not have an API key, follow these steps to create an API key:
 
@@ -329,7 +239,7 @@ Now that you have the key, you are ready to work with the Jupyter notebook. For 
 
 [Back to the top](#top)
 
-## Task 3b: Save a prompt as a Jupyter notebook
+## Task 2b: Save a prompt as a Jupyter notebook
 
 As seen previously, you can save your work in three formats: a prompt template, a prompt session, and a standard notebook. Follow these steps to save your work as a Jupyter notebook.
 
@@ -355,7 +265,7 @@ As seen previously, you can save your work in three formats: a prompt template, 
 
 [Back to the top](#top)
 
-## Task 3c: Edit and run the notebook
+## Task 2c: Edit and run the notebook
 
 The Prompt Lab generated a notebook for you. Follow these steps to tweak and run the code in the notebook:
 
@@ -381,7 +291,7 @@ In this lab, you learned how to complete the following tasks:
 - Compare the strengths and weaknesses of different models.
 - Test different configuration parameters to how they influence a model in generating output.
 - Differentiate zero-shot prompting, one-shot prompting, and few-shot prompting.
-- Generate list and JSON files with foundation models.
+- Generate lists with foundation models.
 - Save prompts and prompt sessions.
 - Restore a saved prompt to an earlier state via prompt history.
 - Save prompts to a Jupyter notebook and working with the Jupyter notebook.
