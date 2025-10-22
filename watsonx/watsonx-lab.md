@@ -255,7 +255,9 @@ Follow these steps to prompt a granite foundation model:
 
 1. Click **Generate**. Notice the output states “\[The input was rejected for containing personal information\]”
 2. Disable **AI guardrails on**. This is necessary to pass personal information in the input text.
-3. Click **Generate**. This result shows the strengths of the *granite* model in that it responded with a natural language output. Notice that there is additional text beyond the steps. In the next task, you stop the response before the additional text.</br>![Response](images/response.png "Response")
+3. Click **Generate**. This result shows the strengths of the *granite* model in that it responded with a natural language output. Notice that there is additional text beyond the steps. In the next task, you stop the response before the additional text.</br>
+   <img src="images/response.png" width="50%" alt="Output image" title="Output image">
+
 5. Save your work as a prompt session with the name:
    ```
    granite model prompt
@@ -269,7 +271,7 @@ Follow these steps to specify a stop sequence:
 1. Type the following keystrokes in the *Stop sequences* field: `press the return or enter key twice`<br/>![Stop sequence characters](images/stop-sequence-02.png "Stop sequence characters")
 1. Click the **+** icon to add the sequence. The following image shows the **Stop sequences** field:</br>![Stop sequence](images/stop-sequence-new.png "Stop sequence")
 1. Click **Generate**. The following image shows the output which no longer includes the extra text as the model recognizes the stop sequence and ceases to generate anything after that sequence.<br/>
-   <img src="images/response-stop.png" width="100%" alt="Output image" title="Output image">
+   <img src="images/response-stop.png" width="50%" alt="Output image" title="Output image">
 1. Save your work as a prompt session with the name:
    ```
    Stop criteria prompt
