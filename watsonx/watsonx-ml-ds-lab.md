@@ -4,9 +4,9 @@
 
 # Overview
 
-# Learning objectives
-
 This lab introduces you to the machine learning and data science capabilities of IBM watsonx. The goal of this lab is to familiarize you with the capabilities of watsonx through practical examples and deepen your understanding of the possibilities that the platform provides.
+
+# Learning objectives
 
 In this lab, you complete the following tasks:
 
