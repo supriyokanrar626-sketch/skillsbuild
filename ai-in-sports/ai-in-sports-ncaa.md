@@ -1,4 +1,4 @@
-<img src="../images/lab00.png">
+<img src="../watsonx/images/lab00.png">
 
 # Overview
 
@@ -35,7 +35,7 @@ Complete the following tasks in this lab:
 
 <a name="part01"></a>
 
-<img src="../images/lab01.png">
+<img src="../watsonx/images/lab01.png">
 
 In this part of the lab, you use the full data set to build, deploy, and test a multiclass classification model.
 
@@ -63,7 +63,7 @@ When you sign up for a watsonx trial, the watsonx.ai Studio and watsonx.ai Runti
 
 The following image shows the watsonx home screen.
 
-<img src="/images/watsonx-home-screen.png">
+<img src="../watsonx/images/watsonx-home-screen.png">
 
 [Back to the top](#top)
 
@@ -87,7 +87,7 @@ When you sign up for a watsonx account, a sandbox project is created for you. Yo
 
 The following image shows the *Overview* tab in the project.
 
-<img src="/images/ai-in-sports-overview-tab.png">
+<img src="../watsonx/images/ai-in-sports-overview-tab.png">
 
 [Back to the top](#top)
 
@@ -109,7 +109,7 @@ To create machine learning models in your project, follow these steps to associa
 
 The following image shows the *Manage* tab in the project.
 
-<img src="/images/ai-in-sports-project-manage.png">
+<img src="../watsonx/images/ai-in-sports-project-manage.png">
 
 [Back to the top](#top)
 
@@ -143,7 +143,7 @@ For the training data, you use several [college basketball playoff datasets](htt
 
 The following image shows the *Assets* tab in the project.
 
-<img src="/images/ai-in-sports-assets-tab.png">
+<img src="../watsonx/images/ai-in-sports-assets-tab.png">
 
 [Back to the top](#top)
 
@@ -171,7 +171,7 @@ You use the <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze
 
 The following image shows the AutoAI experiment.
 
-<img src="/images/autoai-create-experiment-multi.png">
+<img src="../watsonx/images/autoai-create-experiment-multi.png">
 
 [Back to the top](#top)
 
@@ -189,7 +189,7 @@ The following image shows the AutoAI experiment.
 
 The following image shows the data preview.
 
-<img src="/images/autoai-multi-data-preview.png">
+<img src="../watsonx/images/autoai-multi-data-preview.png">
 
 [Back to the top](#top)
 
@@ -217,7 +217,7 @@ The following image shows the data preview.
 
 The following image shows the configured experiment.
 
-<img src="/images/autoai-multiclass.png">
+<img src="../watsonx/images/autoai-multiclass.png">
 
 [Back to the top](#top)
 
@@ -233,7 +233,7 @@ The following image shows the configured experiment.
 
 The following image shows the completed experiment.
 
-<img src="/images/autoai-multiclass-map.png">
+<img src="../watsonx/images/autoai-multiclass-map.png">
 
 [Back to the top](#top)
 
@@ -271,7 +271,7 @@ Now that the experiment run is completed, follow these steps to explore the pipe
 
 The following image shows the model details.
 
-<img src="/images/autoai-multiclass-full-model.png">
+<img src="../watsonx/images/autoai-multiclass-full-model.png">
 
 [Back to the top](#top)
 
@@ -293,7 +293,7 @@ Now that you saved the best performing model to the project, follow these steps 
 
 The following image shows the model to be promoted to the space.
 
-<img src="/images/promote-to-space-multiclass.png">
+<img src="../watsonx/images/promote-to-space-multiclass.png">
 
 [Back to the top](#top)
 
@@ -307,7 +307,7 @@ The following image shows the model to be promoted to the space.
 
 The following image shows the model deployment in the space.
 
-<img src="/images/model-deployment-multiclass.png">
+<img src="../watsonx/images/model-deployment-multiclass.png">
 
 [Back to the top](#top)
 
@@ -337,7 +337,7 @@ The following image shows the model deployment in the space.
 
 The following image shows the test results. The results show that the model probabilities are fairly low and most predictions are *R64* and *R32*. In the Part 2 of this lab, you create a regression model, which yields more accurate predictions.
 
-<img src="/images/test-multiclass.png">
+<img src="../watsonx/images/test-multiclass.png">
 
 [Back to the top](#top)
 
@@ -371,7 +371,7 @@ You use the <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze
 
 The following image shows the AutoAI experiment builder.
 
-<img src="/images/autoai-create-experiment.png">
+<img src="../watsonx/images/autoai-create-experiment.png">
 
 [Back to the top](#top)
 
@@ -389,7 +389,7 @@ The following image shows the AutoAI experiment builder.
 
 The following image shows the data preview.
 
-<img src="/images/autoai-data-preview.png">
+<img src="../watsonx/images/autoai-data-preview.png">
 
 [Back to the top](#top)
 
@@ -417,7 +417,7 @@ The following image shows the data preview.
 
 The following image shows the configured experiment.
 
-<img src="/images/autoai-regression.png">
+<img src="../watsonx/images/autoai-regression.png">
 
 [Back to the top](#top)
 
@@ -433,7 +433,7 @@ The following image shows the configured experiment.
 
 The following image shows the completed experiment.
 
-<img src="/images/autoai-regression-map.png">
+<img src="../watsonx/images/autoai-regression-map.png">
 
 [Back to the top](#top)
 
@@ -473,7 +473,7 @@ Now that the experiment run is completed, follow these steps to explore the pipe
 
 The following image shows the model details.
 
-<img src="/images/autoai-regression-full-model.png">
+<img src="../watsonx/images/autoai-regression-full-model.png">
 
 [Back to the top](#top)
 
@@ -500,7 +500,7 @@ Now that you saved the best performing model to the project, follow these steps 
 
 The following image shows the *Promote to space* page with the CSV files selected.
 
-<img src="/images/promote-to-space-csv-files.png">
+<img src="../watsonx/images/promote-to-space-csv-files.png">
 
 [Back to the top](#top)
 
@@ -515,7 +515,7 @@ The following image shows the *Promote to space* page with the CSV files selecte
 
 The following image shows the *Promote to space* page with the model selected.
 
-<img src="/images/promote-to-space-model.png">
+<img src="../watsonx/images/promote-to-space-model.png">
 
 [Back to the top](#top)
 
@@ -529,7 +529,7 @@ The following image shows the *Promote to space* page with the model selected.
 
 The following image shows the model deployment.
 
-<img src="/images/model-deployment-regression.png">
+<img src="../watsonx/images/model-deployment-regression.png">
 
 [Back to the top](#top)
 
@@ -559,7 +559,7 @@ The following image shows the model deployment.
 
 The following image shows the test results.
 
-<img src="/images/test-regression-full.png">
+<img src="../watsonx/images/test-regression-full.png">
 
 [Back to the top](#top)
 
@@ -571,19 +571,19 @@ Create an AutoAI experiment to build a regression model that uses the *cbbRegres
 
 The following image shows the configured experiment.
 
-<img src="/images/autoai-regression-half.png">
+<img src="../watsonx/images/autoai-regression-half.png">
 
 The following image shows the completed experiment.
 
-<img src="/images/autoai-regression-half-map.png">
+<img src="../watsonx/images/autoai-regression-half-map.png">
 
 The following image shows the model details. Refer to the [College Basketball dataset](https://www.kaggle.com/datasets/andrewsundberg/college-basketball-dataset/data) for complete details on each of the columns in the dataset.
 
-<img src="/images/autoai-regression-half-model.png">
+<img src="../watsonx/images/autoai-regression-half-model.png">
 
 The following image shows the test results. Compare these results to the regression model that uses the full dataset.
 
-<img src="/images/test-regression-half.png">
+<img src="../watsonx/images/test-regression-half.png">
 
 [Back to the top](#top)
 
