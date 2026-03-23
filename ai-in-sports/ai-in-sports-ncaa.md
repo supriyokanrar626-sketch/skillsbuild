@@ -39,7 +39,7 @@ Watch the following video to see a preview of the steps in this tutorial.
 
 **Tip:** Right-click the following thumbnail image, and open the video in a new tab.
 
-<a href="https://video.ibm.com/embed/channel/23952663/video/ncaa-lab">![Video preview of tutorial](../watsonx/images/video-thumbnail-ncaa.jpg "Video preview of tutorial")</a>
+<a href="https://video.ibm.com/embed/channel/23669513/video/ncaa-bb">![Video preview of tutorial](../watsonx/images/video-thumbnail-ncaa.jpg "Video preview of tutorial")</a>
 
 <a name="part01"></a>
 
