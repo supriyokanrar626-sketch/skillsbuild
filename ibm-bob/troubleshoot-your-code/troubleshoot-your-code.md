@@ -41,7 +41,7 @@ You run a fictional business called **Roast Toast Coast Café**. To attract new 
 
 You write the initial version of the site yourself using basic HTML, CSS, and JavaScript.
 
-<img src="./images/roast_toast.png" alt="Roast Toast" width="50%">
+<img src="./images/roast_toast.png" alt="Roast Toast" width="70%">
 
 ### Observed issues
 
@@ -123,7 +123,7 @@ Examples of issues you might see include:
 
 For each issue, IBM Bob provides a brief explanation of the impact and a suggested correction.
 
-<img src="./images/03-output_1.png" alt="Output" width="50%">
+<img src="./images/03-output_1.png" alt="Output" width="70%">
 
 ***
 
@@ -149,7 +149,7 @@ IBM Bob requests permission to modify the file. Select **Approve**.
 
 VS Code displays the original code and the corrected version side by side. Review the proposed changes carefully.
 
-<img src="./images/05-fix_errors_save.png" alt="Fix error" width="70%">
+<img src="./images/05-fix_errors_save.png" alt="Fix error" width="80%">
 
 Typical improvements include:
 
