@@ -41,9 +41,7 @@ You run a fictional business called **Roast Toast Coast Café**. To attract new 
 
 You write the initial version of the site yourself using basic HTML, CSS, and JavaScript.
 
-<div style="width: 50%;">
-![Roast Toast](./images/roast_toast.png)
-</div>
+<img src="./images/roast_toast.png" alt="Roast Toast" width="50%">
 
 ### Observed issues
 
