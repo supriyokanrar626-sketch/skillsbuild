@@ -1,4 +1,4 @@
-![Build a World Cupl Player Dashboard with IBM Bob](images/worldcup-dashboard-lab-title.png)
+![Build a Football Player Dashboard with IBM Bob](images/player-dashboard-lab-title.png)
 
 ## Overview
 
