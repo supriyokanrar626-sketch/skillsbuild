@@ -537,7 +537,7 @@ The following image shows the completed experiment.
 
 Now that the experiment run is completed, follow these steps to explore the pipelines and save the model:
 
-1. In the *Pipeline leaderboard*, select the top performing pipeline with the lowest RMSE score for holdout data.
+1. In the *Pipeline leaderboard*, select the top performing pipeline with the highest accuracy score for holdout data.
 
 1. On the *Pipeline details* page, select **Feature summary**. Review the most important features.
 
