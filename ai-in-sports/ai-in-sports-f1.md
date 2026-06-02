@@ -707,7 +707,7 @@ The notebook contains comments and instructions on how to edit the cells before 
 
 1. Run the cell in the *Select the features in the test data* section to identify the same features in the test data that were used in the training data.
 
-1. Run the cell in the Generate the predictions* section to generate the predictions using the test data.
+1. Run the cell in the *Generate the predictions* section to generate the predictions using the test data.
 
 ## Publish the model
 
